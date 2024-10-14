@@ -3,12 +3,94 @@
 
 <head>
     <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my web page</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+    <marquee behavior="alternate" direction="" scrollamount="13">
+        <span class="outer">Registration page</span>
+    </marquee>
+
+    <form>
+        <h1>Registration Form</h1>
+        <label for="fname">first name:</label>
+        <input type="text" placeholder="Enter your first name" id="fname" value="" class="db100">
+        <br><br>
+        <label for="lname">last name</label>
+        <input type="text" placeholder="Enter your last name" id="lname" value="" class="db100">
+        <br><br>
+        <label for="mail">Mail id:</label>
+        <input type="email" placeholder="Enter yor mail id" id="password" class="db100">
+        <br><br>
+
+        <label for="password">password :</label>
+        <input type="password" placeholder="Enter your password" id="password" class="db100">
+        <br><br>
+
+        <label for="dob">DOB :</label>
+        <input type="date" id="dob" class="db100">
+        <br><br>
+
+        <label for="gender">Gender :</label>
+        <input type="radio" name="gender" id="gender" checked>Male
+        <input type="radio" name="gender">Female
+        <br><br>
+
+        <fieldset>
+            <legend>hobbies</legend>
+            <br>
+            <input type="checkbox">Singing
+            <br><br>
+            <input type="checkbox">Dancing
+            <br><br>
+            <input type="checkbox">Swimming
+            <br><br>
+            <input type="checkbox">chatting
+            <br><br>
+            <input type="checkbox">cooking
+            <br><br>
+            <input type="checkbox">other's
+        </fieldset>
+        <br><br>
+
+        <label for="contact">contact no:</label>
+        <input type="text" id="contact" placeholder="Enter your contact number" class="db100">
+        <br><br>
+
+        <label for="age">Age</label>
+        <input type="number" id="age" placeholder="Enter your age" class="db100">
+        <br><br>
+
+        <label for="photo">photo</label>
+        <input type="file" id="photo" class="db100">
+        <br><br>
+
+        <label for="city">city</label>
+        <select id="city" class="db100">
+            </option>Ajmer</option>
+            <option>bikaner</option>
+            <option>banswara</option>
+            <option>bharatpur</option>
+            <option>baran</option>
+            <option>jaipur</option>
+        </select>
+        <br><br>
+        <label for="address">
+            <Address>
+        </label>
+        <br>
+        <label for="address">address</label>
+        <textarea name="address" cols="50" rows="7" placeholder="Enter your address"
+            class="db100 dbtextarea"></textarea>
+        <br><br>
+
+        <input type="button" value="Insert" id="btn">
+        <input type="submit" class="btn">
+
+        <button class="btn">clear all</button>
+
 
 </body>
 
